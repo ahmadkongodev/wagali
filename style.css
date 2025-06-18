@@ -33,6 +33,34 @@
     height: 600px; /* Adjust this value to your desired height */
     object-fit: cover; /* Ensures the image maintains aspect ratio and fills the container */
   }
+  .artiste_image{
+  width: 100%; /* Ensures the image takes the full width of its container */
+    height: 300px; /* Adjust this value to your desired height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and fills the container */
+  
+  }
 footer{
     background-color: black;
+}
+
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .artiste_image {
+    height: 500px;
+  }
+}
+
+/* Small tablets and large phones */
+@media (max-width: 768px) {
+  .artiste_image {
+    height: 550px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .artiste_image {
+    height: 500px;
+  }
 }

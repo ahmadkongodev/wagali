@@ -10,7 +10,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark text-white">
+<body class="bg-dark text-white" >
   <!-- navbar -->
   <nav class="navbar bg-dark border-bottom navbar-expand-lg bg-body-tertiary border-body" data-bs-theme="dark">
     <div class="container-fluid">
@@ -40,13 +40,20 @@
     </div>
   </nav>
   <!-- corps principale -->
-  <div class="container mt-2" style="text-align: justify;">
-    <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 400px; background-color: #000;" class="embed-responsive embed-responsive-16by9">
-      <video width="300"height="200" src="videos/presentation.mp4" autoplay muted controls style=" height: 100%; object-fit: cover;">
-          Your browser does not support the video tag.
-      </video>
+    
+    <div class="container mt-2" style="text-align: justify;">
+   <div style="display: flex; align-items: center; justify-content: center; width: 100%; max-height: 400px; background-color: #000; overflow: hidden;" class="embed-responsive embed-responsive-16by9">
+    <video 
+      src="videos/presentation.mp4" 
+      autoplay 
+      muted 
+      controls 
+      style="width: 100%; height: 100%; max-height: 400px; object-fit: contain;">
+        video non supporter.
+    </video>
   </div>
-  
+ 
+   
   
     <!-- image start here -->
     <!-- <div style="display: flex; align-items: center; justify-content: center;" >
@@ -105,15 +112,11 @@
      
   <h5 class="mt-2  text-warning">  Origine de l’appellation </h5>
 Le Burkina Faso est constitué de <span class="fw-bold"> 13 régions et de 45 provinces </span> d’où le nom du concept global <span class="fw-bold"> 13 : 45 </span>
-Le nom du concept musical urbain choisi est le <span class="fw-bold"> WAGALI </span> qui signifie :
-<ol>
-  <li > <span class="fw-bold">en Dioula </span> l’art de faire voir, montrer ou exhiber </li>
-  <li > <span class="fw-bold">en gourounsi (pur coïncidence) </span>: les gens de ouaga</li>
-  <li > <span class="fw-bold">en français </span> : WAGALI « ouaga lie » comme pour dire « ouaga lie tout le monde à tout le monde ». Tout le monde à un lien direct ou indirect avec Ouaga</li>
-</ol>
+Le nom du concept musical urbain choisi est le <span class="fw-bold"> WAGALI </span> qui signifie : <span class="fw-bold"> OUVERTURE </span>
+Ouvrir le Burkina à la sous-région et au monde afin de promouvoir notre identité culturelle et positionner les jeunes talents
 <div style="display: flex; align-items: center; justify-content: center;" >
 
-  <img class="m-2" src="images/wagali/wagali1.webp" style="width: 350px; height: 350px;" alt="..."><br>
+  <img class="m-2" src="images/wagali/wagali3.webp" style="width: 350px; height: 350px;" alt="..."><br>
 </div>
   </div>
   <footer class="page-footer font-small pt-5">

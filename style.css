@@ -4,40 +4,14 @@
 
 }
 
-p {
-  line-height: 1.7;
-  text-align: justify;
-}
-
+ 
 .carousel-inner img {
   border-radius: 10px;
 }
+ 
 
-h5,
-h6 {
-  border-left: 5px solid orange;
-  padding-left: 10px;
-  margin-top: 1.5rem;
-}
-
-ul li::marker {
-  color: orange;
-}
-
-
-.card-title {
-  color: #ffc107;
-}
-
-.card p {
-  font-size: 0.95rem;
-  text-align: justify;
-}
-
-.text-warning {
-  color: #ffc107 !important;
-}
-
+ 
+ 
 .c-img {
   height: 100%;
   object-fit: contain;

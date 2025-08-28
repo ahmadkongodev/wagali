@@ -36,6 +36,9 @@
   height: 100%;
   object-fit: contain;
 }
+.realisation{
+  height: 200px;
+}
 
 .fixed-img {
   width: 100%;
@@ -47,12 +50,11 @@
 }
 
 .fixed-img2 {
+  
+  height: 400px;
   width: 100%;
-  /* Ensures the image takes the full width of its container */
-  height: 600px;
   /* Adjust this value to your desired height */
-  object-fit: cover;
-  /* Ensures the image maintains aspect ratio and fills the container */
+   
 }
 
 .artiste_image {
@@ -75,6 +77,9 @@ footer {
   .artiste_image {
     height: 500px;
   }
+  .realisation{
+  height: 200px;
+}
 }
 
 /* Small tablets and large phones */
@@ -82,6 +87,9 @@ footer {
   .artiste_image {
     height: 550px;
   }
+   .realisation{
+  height: auto;
+}
 }
 
 /* Mobile phones */
@@ -89,4 +97,7 @@ footer {
   .artiste_image {
     height: 500px;
   }
+   .realisation{
+  height: auto;
+}
 }

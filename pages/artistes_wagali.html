@@ -1,294 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artistes Wagali – Les Talents qui Donnent Vie au Mouvement</title>
-  <meta name="description"
-    content="Découvrez les artistes engagés dans le projet Wagali : des voix uniques, des styles variés et une même passion pour une musique Burkinabé nouvelle et vibrante.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistes Wagali | Le Collectif Musical du Burkina Faso</title>
+    <meta name="description" content="Découvrez les 22 talents du collectif Wagali. Une fusion unique de musique urbaine et traditionnelle burkinabé : Nabaloum, Amzy, Smarty et plus.">
+    <link rel="canonical" href="https://www.wagali.bf/pages/artistes_wagali.html">
+    <link rel="icon" href="../images/favicon.ico" type="image/ico">
 
-  <link rel="stylesheet" href="../style.css">
-  <link rel="icon" href="../images/favicon.ico" type="image/ico">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- JSON-LD for Artist Collection -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Nabaloum" },
+        { "@type": "ListItem", "position": 2, "name": "Amzy" },
+        { "@type": "ListItem", "position": 3, "name": "Kalam" },
+        { "@type": "ListItem", "position": 4, "name": "Flora Paré" }
+      ],
+      "numberOfItems": 22
+    }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body class="bg-dark text-white">
-  <!-- navbar -->
-  <nav class="navbar bg-dark border-bottom navbar-expand-lg bg-body-tertiary border-body" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">WAGALI</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " href="../index.html">Acceuil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="initiateur.html">Initiateur</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Artistes Wagali</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="burkina.html">Burkina Faso</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="medias.html">Médias</a>
-          </li>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">WAGALI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#wagaliNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="wagaliNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="initiateur.html">L'Initiateur</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="artistes_wagali.html">Artistes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="burkina.html">Patrimoine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="medias.html">Médias</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        </ul>
+    <header class="pt-5 mt-5">
+        <div class="container text-center py-5 reveal">
+            <span class="section-tag">Le Collectif</span>
+            <h1 class="display-3">Les Voix du Mouvement</h1>
+            <p class="text-muted mx-auto" style="max-width: 700px;">Des talents exceptionnels unis par une même passion : porter haut les couleurs de la musique Burkinabé nouvelle et vibrante.</p>
+        </div>
+    </header>
 
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="m-3"></div>
+    <section class="bg-dark pt-0">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Row 1 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/nabaloum.webp" class="img-fluid w-100" alt="Nabaloum - Artiste Wagali Burkina Faso" width="350" height="350" loading="lazy" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Nabaloum</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/elu111.webp" class="img-fluid w-100" alt="ELU 111" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">ELU 111</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-2">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/elty.webp" class="img-fluid w-100" alt="ELTY" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">ELTY</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/blacky.webp" class="img-fluid w-100" alt="BLACKY" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">BLACKY</h5></div>
+                    </div>
+                </div>
 
-    <div class="card-group">
-      <div class="card">
-        <img src="../images/artistes/nabaloum.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">nabaloum</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/elu111.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">ELU 111</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/elty.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">ELTY</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/blacky.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">BLACKY</h5>
-          </p>
-        </div>
-      </div>
+                <!-- Row 2 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/frere_malkom.webp" class="img-fluid w-100" alt="FRERE MALKOM" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">FRERE MALKOM</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/young_ced.webp" class="img-fluid w-100" alt="YOUNG CED" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">YOUNG CED</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-2">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/flora_pare.webp" class="img-fluid w-100" alt="Flora PARE" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Flora PARE</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/alrich.webp" class="img-fluid w-100" alt="Alrich" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Alrich</h5></div>
+                    </div>
+                </div>
 
-    </div>
-    <div class="m-3"></div>
-    <div class="card-group">
-      <div class="card">
-        <img src="../images/artistes/frere_malkom.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">FRERE MALKOM</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/young_ced.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">YOUNG CED</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/flora_pare.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Flora PARE</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/alrich.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Alrich</h5>
-          </p>
-        </div>
-      </div>
-    </div>
+                <!-- Row 3 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/mc_bigaf.webp" class="img-fluid w-100" alt="MC Bigaf" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">MC Bigaf</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/marex_zender.webp" class="img-fluid w-100" alt="Marex Zender" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Marex Zender</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-2">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/francky_degam.webp" class="img-fluid w-100" alt="Francky DEGAM" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Francky DEGAM</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/amzy.webp" class="img-fluid w-100" alt="AMZY" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">AMZY</h5></div>
+                    </div>
+                </div>
 
-    <div class="m-3"></div>
-    <div class="card-group">
-      <div class="card">
-        <img src="../images/artistes/mc_bigaf.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">MC Bigaf</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/marex_zender.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Marex Zender</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/francky_degam.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Francky DEGAM</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/amzy.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">AMZY</h5>
-          </p>
-        </div>
-      </div>
+                <!-- Row 4 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/fORTUNA_LAWAPAN.webp" class="img-fluid w-100" alt="FORTUNA LAWAPAN" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">FORTUNA LAWAPAN</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/BOUGMA_BOUGMA.webp" class="img-fluid w-100" alt="BOUGMA BOUGMA" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">BOUGMA BOUGMA</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-2">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/mISS_WEDRA.webp" class="img-fluid w-100" alt="MISS WEDRA" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">MISS WEDRA</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/KALAM.webp" class="img-fluid w-100" alt="KALAM" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">KALAM</h5></div>
+                    </div>
+                </div>
 
-    </div>
-    <div class="m-3"></div>
-    <div class="card-group ">
-      <div class="card">
-        <img src="../images/artistes/fORTUNA_LAWAPAN.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">FORTUNA LAWAPAN</h5>
-          </p>
+                <!-- Row 5 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/djeli_Karim.webp" class="img-fluid w-100" alt="Djeli Karim" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Djeli Karim</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/marie_Gayeri.webp" class="img-fluid w-100" alt="Marie Gayeri" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Marie Gayeri</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-2">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/kindiss_Fils.webp" class="img-fluid w-100" alt="Kindiss Fils" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Kindiss Fils</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/idak_Bassave.webp" class="img-fluid w-100" alt="Idak Bassavé" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Idak Bassavé</h5></div>
+                    </div>
+                </div>
+
+                <!-- Row 6 -->
+                <div class="col-6 col-md-4 col-lg-3 reveal">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/lobbo_Dicko.webp" class="img-fluid w-100" alt="Lobbo Dicko" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Lobbo Dicko</h5></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 reveal reveal-delay-1">
+                    <div class="wagali-card">
+                        <img src="../images/artistes/maï_Lingani.webp" class="img-fluid w-100" alt="Maï Lingani" style="height: 350px; object-fit: cover;">
+                        <div class="p-3 text-center"><h5 class="text-gold mb-0">Maï Lingani</h5></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/BOUGMA_BOUGMA.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">BOUGMA BOUGMA</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/mISS_WEDRA.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">MISS WEDRA</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/KALAM.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">KALAM</h5>
-          </p>
-        </div>
-      </div>
-
-
-
-    </div>
-  <div class="card-group">
-      <div class="card">
-        <img src="../images/artistes/djeli_Karim.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Djeli Karim</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/marie_Gayeri.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Marie Gayeri </h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/kindiss_Fils.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Kindiss Fils</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/idak_Bassave.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Idak Bassavé</h5>
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="m-3"></div>
-     <div class="card-group">
-      <div class="card">
-        <img src="../images/artistes/lobbo_Dicko.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Lobbo Dicko</h5>
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="../images/artistes/maï_Lingani.webp" class="card-img-top artiste_image" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Maï Lingani </h5>
-          </p>
-        </div>
-      </div>
-      
-      <div class="card" style="visibility: hidden;"></div>
-      <div class="card" style="visibility: hidden;"></div>
-
-    </div>
-  </div>
-
-    <footer class="page-footer font-small pt-5">
-
-      <!-- Footer Elements -->
-      <div class="container">
-        <!-- Social buttons -->
-        <!-- <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/UAB-Interkodas-1882309422025359/">
-            <img alt="fb" width="30" src="">
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <img alt="linkedin" width="30" src="{% static '/main/svgs/linkedin.svg' %}">
-          </a>
-        </li>
-        
-         
-      </ul> -->
-        <!-- Social buttons -->
-        <div class="d-flex justify-content-center">
-          <ul class="navbar-nav flex-column flex-md-row text-center ">
-            <li class="nav-item">
-              <a class="nav-link m-2" href="../index.html">Acceuil</a>
-            </li>
-            <li class="nav-item m-2">
-              <a class="nav-link active" href="initiateur.html">Initiateur</a>
-            </li>
-            <li class="nav-item  m-2">
-              <a class="nav-link text-light" aria-current="page" href="">Artistes Wagali</a>
-            </li>
-            <li class="nav-item m-2">
-              <a class="nav-link" href="burkina.html">Burkina Faso</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link m-2" href="medias.html">Médias</a>
-          </li>
-
-          </ul>
-        </div>
-
-      </div>
-      <!-- Footer Elements -->
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center text-light py-3">© 2025 Copyright: Tous droits réservés.
-      </div>
-      <!-- Copyright -->
-
-    </footer>
+    </section>
 
     <!-- Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+    <footer class="text-white">
+        <div class="container text-center">
+            <a class="footer-brand" href="#">WAGALI</a>
+            <p class="small text-muted mb-0">© 2025 WAGALI - Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- JS for Animations -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.wagali.bf/sitemap.xml
+
+# Prevent indexing of backup files
+Disallow: *.bak
+Disallow: *.old
